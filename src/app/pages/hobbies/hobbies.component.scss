@@ -1,0 +1,15 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    margin: 12px;
+  }
+
+  app-info-card {
+    width: 80%;
+    margin-bottom: 12px;
+  }
+}

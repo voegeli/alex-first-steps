@@ -1,0 +1,12 @@
+<div class="card" >
+    <div class="card-body">
+        <div>
+            <h5 class="card-title">{{infoCard.title}}</h5>
+            <p class="card-text">{{infoCard.text}}</p>
+        </div>
+        <div class="images">
+            <img *ngFor="let img of infoCard.images"  [src]="img" class="img-thumbnail" width="200"/>
+        </div>
+
+    </div>
+</div>
